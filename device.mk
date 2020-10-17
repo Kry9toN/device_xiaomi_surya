@@ -55,7 +55,8 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    BluetoothQti
+    BluetoothQti \
+    libbtconfigstore
 
 # Camera
 PRODUCT_PACKAGES += \
