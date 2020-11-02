@@ -6,11 +6,11 @@
 
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+# Inherit some common Derpfest stuff.
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := havoc_surya
+PRODUCT_NAME := derp_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := M2007J20CG
@@ -20,4 +20,4 @@ BUILD_FINGERPRINT := POCO/surya_global/surya:10/QKQ1.200512.002/V12.0.3.0.QJGMIX
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-HAVOC_BUILD_TYPE := Official
+DERP_BUILDTYPE := Official
